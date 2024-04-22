@@ -11,11 +11,11 @@ function NavBar() {
           <li><a href="#contact">Contact</a></li>
           <div className="icons">
             <li>
-              <a href="https://www.linkedin.com/" target="blank"
+              <a href="https://www.linkedin.com/in/carlos-brito-de-sousa/" target="blank"
                 ><i className="fa-brands fa-linkedin-in"></i></a>
             </li>
             <li>
-              <a href="https://github.com/" target="blank"
+              <a href="https://github.com/Cmbs86" target="blank"
                 ><i className="fa-brands fa-github"></i></a>
             </li>
           </div>
