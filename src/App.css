@@ -92,6 +92,8 @@ a {
 .introduction {
   display: flex;
   flex-direction: column;
+  /* padding: 25px; */
+  align-items: center;
 }
 
 .introduction_header,
@@ -103,9 +105,12 @@ a {
   color: var(--font-color-three);
 }
 
+
 .introduction_text {
   font-size: 1.8rem;
   font-weight: 400;
+
+
 }
 
 .skills {
@@ -447,7 +452,7 @@ footer {
 
 /* DESKTOP HEADER/NAV */
 
-@media (min-width: 758px) {
+@media (min-width: 828px) {
   .main-container {
     display: flex;
   }
