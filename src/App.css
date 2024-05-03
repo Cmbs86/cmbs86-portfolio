@@ -18,8 +18,7 @@
   --font-color-three: #ebebeb;
 }
 
-html{
-
+html {
   scroll-behavior: smooth;
 }
 
@@ -105,12 +104,9 @@ a {
   color: var(--font-color-three);
 }
 
-
 .introduction_text {
   font-size: 1.8rem;
   font-weight: 400;
-
-
 }
 
 .skills {
@@ -502,6 +498,32 @@ footer {
     flex-grow: 1;
     margin-left: 10rem;
   }
+
+  .introduction_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    img {
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      margin: 20px;
+    }
+
+    .introduction_text {
+    }
+  }
+
+  /* .introduction_header,
+.introduction_text {
+  padding: 25px;
+  line-height: 1.75;
+  font-family: var(--font-nav-header);
+  font-size: 2rem;
+  color: var(--font-color-three);
+} */
 
   .skills {
     flex-direction: row;

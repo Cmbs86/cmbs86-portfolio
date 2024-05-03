@@ -1,8 +1,10 @@
+import Avatar from "../assets/images/avatar.png"
 function Intro() {
   return (
     <>
       <div id="about" className="introduction">
         <h1 className="introduction_header">
+          <img src={Avatar} alt="avatar" />
           Hi, I'm Carlos Sousa.
           <br />A 38-year-old Junior Full Stack Web Developer.
         </h1>
