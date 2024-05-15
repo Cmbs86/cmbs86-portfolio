@@ -1,10 +1,12 @@
-import Avatar from "../assets/images/avatar.png"
+import Avatar from "../assets/images/avatar.png";
 function Intro() {
   return (
     <>
       <div id="about" className="introduction">
         <h1 className="introduction_header">
-          <img src={Avatar} alt="avatar" />
+          <div className="img-box">
+            <img src={Avatar} alt="avatar" />
+          </div>
           Hi, I'm Carlos Sousa.
           <br />A 38-year-old Junior Full Stack Web Developer.
         </h1>
