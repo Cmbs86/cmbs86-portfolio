@@ -1,110 +1,107 @@
-import React from "react";
-import HtmlLogo from "../assets/images/html.png";
-import CssLogo from "../assets/images/css.png";
-import SassLogo from "../assets/images/sass.png"
-import VsCodeLogo from "../assets/images/visual-studio-code.png"
-import GitHubLogo from "../assets/images/github.png"
-import GitLogo from "../assets/images/git.png"
-import JSLogo from "../assets/images/javascript.png"
-import NodeLogo from "../assets/images/node-js.png"
-import ReactLogo from "../assets/images/react.png"
+
+
+//react imports
+import { IconContext } from "react-icons";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaCss3Alt } from "react-icons/fa6";
+import { FaHtml5 } from "react-icons/fa6";
+import { TbBrandVscode } from "react-icons/tb";
+import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaNode } from "react-icons/fa";
+import { FaReact } from "react-icons/fa6";
+import { RiTailwindCssLine } from "react-icons/ri";
+import { SiMongodb } from "react-icons/si";
 
 function Main() {
   return (
     <>
-      <main className="skillset_section">
-        <section className="skills">
-          <div className="card card_1">
-            <h3 className="card_text-1">Languages in my toolkit:</h3>
-            <div className="card_img-1">
-              <img src={HtmlLogo} alt="html icon" />
-              <img src={CssLogo} alt="css icon" />
-              <img src={SassLogo} alt="sass icon" />
+      <IconContext.Provider value={{ size: "4.5rem" }}>
+        <main className="skillset_section">
+          <section className="skills">
+            <div className="card card_1">
+              <h3 className="card_text-1">Languages:</h3>
+              <div className="card_img-1">
+                <FaHtml5 />
+                <FaCss3Alt />
+                <IoLogoJavascript />
+              </div>
+              <h3 className="card_text-1">Tools & Technologies:</h3>
+              <div className="card_img-1">
+                <FaNode />
+                <TbBrandVscode />
+                <FaGitAlt />
+                <FaGithub />
+                <FaReact />
+                <RiTailwindCssLine />
+                <SiMongodb />
+              </div>
             </div>
-            <h3 className="card_text-1">Crafting with:</h3>
-            <div className="card_img-1">
-              <img
-                src={VsCodeLogo}
-                alt="vscode icon"
+          </section>
+
+          <h3 className="project_text">
+            Exciting Projects on the Horizon - Stay Tuned!
+          </h3>
+
+          <section id="projects" className="projects">
+            <div className="grid_card projects_card1">
+              <span className="top"></span>
+              <span className="right"></span>
+              <span className="bottom"></span>
+              <span className="left"></span>
+              {/* </article> */}
+            </div>
+
+            <div className="grid_card projects_card2">
+              <span className="top"></span>
+              <span className="right"></span>
+              <span className="bottom"></span>
+              <span className="left"></span>
+            </div>
+
+            <div className="grid_card projects_card3">
+              <span className="top"></span>
+              <span className="right"></span>
+              <span className="bottom"></span>
+              <span className="left"></span>
+            </div>
+          </section>
+          <div className="form">
+            <h3>Let's Collaborate!</h3>
+            <p>Fill in the form below, and I'll get back to you!</p>
+            <form id="contact" action="#" method="post">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name here"
+                required
               />
-              <img src={GitHubLogo} alt="github icon" />
-              <img src={GitLogo} alt="git icon" />
-            </div>
+
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+
+              <label for="message">How can I help you?</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Enter your message here"
+                rows="5"
+                required
+              ></textarea>
+
+              <input type="submit" value="Submit" />
+            </form>
           </div>
-          <div className="card card_2">
-            <h3 className="card_text-2">
-              Languages and Devtools I'm exploring:
-            </h3>
-            <div className="card_img-2">
-              <img src={JSLogo} alt="javascript icon" />
-              <img src={NodeLogo} alt="node icon" />
-              <img src={ReactLogo} alt="react icon" />
-            </div>
-          </div>
-        </section>
-
-        <h3 className="project_text">
-          Exciting Projects on the Horizon - Stay Tuned!
-        </h3>
-
-        <section id="projects" className="projects">
-          <div className="grid_card projects_card1">
-            <span className="top"></span>
-            <span className="right"></span>
-            <span className="bottom"></span>
-            <span className="left"></span>
-            {/* </article> */}
-          </div>
-
-          <div className="grid_card projects_card2">
-            <span className="top"></span>
-            <span className="right"></span>
-            <span className="bottom"></span>
-            <span className="left"></span>
-          </div>
-
-          <div className="grid_card projects_card3">
-            <span className="top"></span>
-            <span className="right"></span>
-            <span className="bottom"></span>
-            <span className="left"></span>
-          </div>
-        </section>
-        <div className="form">
-          <h3>Let's Collaborate!</h3>
-          <p>Fill in the form below, and I'll get back to you!</p>
-          <form id="contact" action="#" method="post">
-            <label for="name">Name:</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Enter your name here"
-              required
-            />
-
-            <label for="email">Email:</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Enter your email"
-              required
-            />
-
-            <label for="message">How can I help you?</label>
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Enter your message here"
-              rows="5"
-              required
-            ></textarea>
-
-            <input type="submit" value="Submit" />
-          </form>
-        </div>
-      </main>
+        </main>
+      </IconContext.Provider>
     </>
   );
 }

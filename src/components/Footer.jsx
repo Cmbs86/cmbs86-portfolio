@@ -36,10 +36,12 @@ function Footer() {
             starline / Freepik
           </a>
         </p>
-        <p className="copyright">&copy; 2023 All Rights Reserved</p>
+        <p className="copyright">&copy;  All Rights Reserved</p>
       </footer>
     </>
   );
 }
+
+// {date || new Date().toLocaleDateString()}
 
 export default Footer;
