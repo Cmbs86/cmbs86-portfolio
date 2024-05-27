@@ -1,4 +1,6 @@
 function Footer() {
+
+  const currentYear = new Date().getFullYear();
   return (
     <>
       <footer>
@@ -36,12 +38,12 @@ function Footer() {
             starline / Freepik
           </a>
         </p>
-        <p className="copyright">&copy;  All Rights Reserved</p>
+        <p className="copyright"> {currentYear}&copy;  All Rights Reserved</p>
       </footer>
     </>
   );
 }
 
-// {date || new Date().toLocaleDateString()}
+
 
 export default Footer;
