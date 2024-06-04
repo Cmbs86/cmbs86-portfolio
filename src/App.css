@@ -158,7 +158,6 @@ a {
   flex-wrap: wrap;
   gap: 30px;
   margin: auto;
-  /* margin-bottom: 20px; */
   font-family: var(--font-nav-header);
   border-radius: 5px;
 }
@@ -245,6 +244,7 @@ a {
   border-right: 1px solid rgba(0, 255, 255, 0.5);
   border-bottom: 1px solid rgba(57, 255, 20, 0.5);
   border-left: 1px solid rgba(255, 255, 113, 0.5);
+  
 }
 
 span {
@@ -384,7 +384,7 @@ span {
 
 .projects_card1 {
   /* border: 1px solid var(--main-bg-color); */
-  background-image: url(./assets/images/25516.jpg);
+  /* background-image: url(./assets/images/25516.jpg); */
 }
 
 .projects_card2 {
@@ -611,7 +611,7 @@ footer {
   }
 
   .grid_card {
-    height: 450px;
+    height: 550px;
     width: 100%;
     flex-wrap: wrap;
   }

@@ -12,6 +12,8 @@ import { FaNode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa6";
 import { RiTailwindCssLine } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
+import ProjectCard from "./Projects/ProjectCard.jsx";
+import akpica from "../assets/images/akpica-screenshot.webp"
 
 function Main() {
   return (
@@ -45,11 +47,22 @@ function Main() {
 
           <section id="projects" className="projects">
             <div className="grid_card projects_card1">
-              <span className="top"></span>
+              <ProjectCard
+            image={akpica}
+            altTitle={"akpica-ecommerce"}
+            imageUrl={"https://akpica.netlify.app/"}
+            title={"akpica ecommerce"}
+            description={
+              "This eCommerce platform is designed to provide users with a range of features that make browsing, selecting, and purchasing products."
+            }
+            demoUrl={"https://akpica.netlify.app/"}
+            codeUrl={"https://github.com/akiko-luka/akpica-ecommerce"}
+          />
+              {/* <span className="top"></span>
               <span className="right"></span>
               <span className="bottom"></span>
               <span className="left"></span>
-              {/* </article> */}
+              </article> */}
             </div>
 
             <div className="grid_card projects_card2">
