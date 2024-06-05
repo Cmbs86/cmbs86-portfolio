@@ -18,14 +18,14 @@ const ProjectCard = ({ imageUrl, image, altTitle, title, description, demoUrl, c
           <div className="btn">
             <div className="code">
               <a href={codeUrl} target="_blank">
-                Code <BsGithub />
+                Code <BsGithub  />
               </a>
             </div>
             
             {demoUrl && (
               <div className="demo">
                 <a href={demoUrl} target="_blank">
-                  Live Demo <IoPlaySharp />
+                  Live Demo <IoPlaySharp  color="red" fontSize="1.5em" />
                 </a>
               </div>
             )}

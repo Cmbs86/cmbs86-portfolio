@@ -1,21 +1,30 @@
 .card__container {
-    /* border: 1px solid red; */
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
   
     .card-proj {
-      width: 300px;
-      height: 410px;
+     
+      height: 100%;
       border-radius: 10px;
       margin: 10px;
+      /* justify-content: center; */
       /* background-color: var(--gray2); */
       border: 0px solid var(--black2);
-      /* border: 1px solid yellow; */
+      /* border: 1px solid blue; */
       padding-bottom: 10px;
       box-shadow: var(--box-shadow);
   
       img {
-        width: 300px;
-        height: 200px;
-        /* border-radius: 10px 10px 0 0; */
+        width: 350px;
+        height: 220px;
+        /* border: 1px solid red; */
         object-fit: cover;
         object-position: center;
         margin-bottom: 1.2rem;
@@ -50,7 +59,7 @@
         /* border: 1px solid red; */
         padding: 5px;
         margin: 0 8px 0;
-        font-size: 1rem;
+        font-size: 1.3rem;
       }
   
       .btn {
@@ -69,7 +78,7 @@
           background: var(--gray);
           font-size: 1rem;
           font-weight: 500;
-          text-align: center;
+          /* text-align: center; */
           margin: 0 5px;
           padding: 5px 5px;
           height: auto;
@@ -85,11 +94,16 @@
         }
   
         .demo {
+          display: flex;
+          text-align: center;
+          justify-content: center;
           width: 90px;
         }
   
         .code {
+          
           width: 90px;
+          
           /* flex-shrink: 1; */
           /* flex-basis: 100px; */
         }
