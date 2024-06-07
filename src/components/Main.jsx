@@ -68,17 +68,17 @@ function Main() {
             </div>
 
             <div className="grid_card projects_card2">
-              <span className="top"></span>
+              {/* <span className="top"></span>
               <span className="right"></span>
               <span className="bottom"></span>
-              <span className="left"></span>
+              <span className="left"></span> */}
             </div>
 
             <div className="grid_card projects_card3">
-              <span className="top"></span>
+              {/* <span className="top"></span>
               <span className="right"></span>
               <span className="bottom"></span>
-              <span className="left"></span>
+              <span className="left"></span> */}
             </div>
           </section>
           <div className="form">

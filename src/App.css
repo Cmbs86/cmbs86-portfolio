@@ -258,7 +258,7 @@ span {
   border-radius: 100vmax;
 }
 
-.top {
+/* .top {
   top: 0;
   left: 0;
   width: 0;
@@ -269,9 +269,9 @@ span {
     rgba(255, 49, 49, 0.5),
     rgb(255, 49, 49)
   );
-}
+} */
 
-.bottom {
+/* .bottom {
   right: 0;
   bottom: 0;
   height: 5px;
@@ -281,9 +281,9 @@ span {
     rgba(57, 255, 20, 0.5),
     transparent 50%
   );
-}
+} */
 
-.right {
+/* .right {
   top: 0;
   right: 0;
   width: 5px;
@@ -294,9 +294,9 @@ span {
     rgba(0, 255, 255, 0.5),
     rgb(0, 255, 255)
   );
-}
+} */
 
-.left {
+/* .left {
   left: 0;
   bottom: 0;
   width: 5px;
@@ -307,9 +307,9 @@ span {
     rgba(255, 255, 113, 0.5),
     transparent 70%
   );
-}
+} */
 
-.top {
+/* .top {
   animation: animateTop 3s ease-in-out infinite;
 }
 
@@ -386,7 +386,7 @@ span {
     opacity: 1;
     height: 100%;
   }
-}
+} */
 
 .projects_card1 {
   /* border: 1px solid var(--main-bg-color); */
