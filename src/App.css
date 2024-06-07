@@ -160,6 +160,10 @@ a {
   margin: auto;
   font-family: var(--font-nav-header);
   border-radius: 5px;
+
+  .skill-card-icons{
+    font-size: 4.5rem;
+  }
 }
 
 @media(max-width: 508px) {
@@ -222,6 +226,7 @@ a {
   place-items: center;
   gap: 30px;
   margin-bottom: 50px;
+  
 }
 
 .grid_card {
@@ -236,14 +241,15 @@ a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  border: var(--tertiary-bg-color) 1px solid;
 
   /* animation attempt */
-  overflow: hidden;
+  /* overflow: hidden;
   position: relative;
   border-top: 1px solid rgba(255, 49, 49, 0.5);
   border-right: 1px solid rgba(0, 255, 255, 0.5);
   border-bottom: 1px solid rgba(57, 255, 20, 0.5);
-  border-left: 1px solid rgba(255, 255, 113, 0.5);
+  border-left: 1px solid rgba(255, 255, 113, 0.5); */
   
 }
 
@@ -385,6 +391,7 @@ span {
 .projects_card1 {
   /* border: 1px solid var(--main-bg-color); */
   /* background-image: url(./assets/images/25516.jpg); */
+  
 }
 
 .projects_card2 {

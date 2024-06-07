@@ -1,4 +1,5 @@
 import "./projectCard.css";
+import { IconContext } from "react-icons";
 
 // icons
 import { IoPlaySharp } from "react-icons/io5";
@@ -15,22 +16,25 @@ const ProjectCard = ({ imageUrl, image, altTitle, title, description, demoUrl, c
           </a>
           <p>{description}</p>
 
+          <IconContext.Provider value={{ className: "project-icons" }}>
           <div className="btn">
-            <div className="code">
+            <button className="code">
               <a href={codeUrl} target="_blank">
-                Code <BsGithub  />
+                <p>Code </p>
+                <BsGithub  />
               </a>
-            </div>
+            </button>
             
             {demoUrl && (
-              <div className="demo">
+              <button className="demo">
                 <a href={demoUrl} target="_blank">
-                  Live Demo <IoPlaySharp  color="red" fontSize="1.5em" />
+                 <p>Live</p><IoPlaySharp />
                 </a>
-              </div>
+              </button>
             )}
 
           </div>
+          </IconContext.Provider>
         </div>
       </article>
     </>

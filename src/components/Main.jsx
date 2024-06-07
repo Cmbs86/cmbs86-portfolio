@@ -13,13 +13,14 @@ import { FaReact } from "react-icons/fa6";
 import { RiTailwindCssLine } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import ProjectCard from "./Projects/ProjectCard.jsx";
-import akpica from "../assets/images/akpica-screenshot.webp"
+import akpica from "../assets/images/akpica-ecommerce.png"
+
 
 function Main() {
   return (
     <>
-      <IconContext.Provider value={{ size: "4.5rem" }}>
         <main className="skillset_section">
+      <IconContext.Provider value={{ className: "skill-card-icons"}}>
           <section className="skills">
             <div className="card card_1">
               <h3 className="card_text-1">Languages:</h3>
@@ -40,6 +41,7 @@ function Main() {
               </div>
             </div>
           </section>
+        </IconContext.Provider>
 
           <h3 className="project_text">
             Exciting Projects on the Horizon - Stay Tuned!
@@ -61,8 +63,8 @@ function Main() {
               {/* <span className="top"></span>
               <span className="right"></span>
               <span className="bottom"></span>
-              <span className="left"></span>
-              </article> */}
+              <span className="left"></span> */}
+              
             </div>
 
             <div className="grid_card projects_card2">
@@ -114,7 +116,7 @@ function Main() {
             </form>
           </div>
         </main>
-      </IconContext.Provider>
+   
     </>
   );
 }
