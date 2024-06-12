@@ -86,7 +86,6 @@ a {
 .wrapper {
   display: flex;
   flex-direction: column;
-
 }
 
 .introduction {
@@ -95,32 +94,23 @@ a {
   align-items: center;
 }
 
-
-.introduction_header{
+.introduction_header {
   display: flex;
   align-items: center;
   text-align: center;
   flex-direction: column;
   margin-top: 30px;
-
- 
 }
 
 .img-box {
   display: flex;
   margin-bottom: 30px;
-
-
-  
-
 }
 
 .img-box img {
   height: 160px;
   width: 160px;
   border-radius: 50%;
-
-
 }
 
 .introduction_header,
@@ -130,11 +120,9 @@ a {
   font-family: var(--font-nav-header);
   font-size: 2rem;
   color: var(--font-color-three);
-
 }
 
 .introduction_text {
- 
   font-size: 1.8rem;
   font-weight: 400;
 }
@@ -161,31 +149,27 @@ a {
   font-family: var(--font-nav-header);
   border-radius: 5px;
 
-  .skill-card-icons{
+  .skill-card-icons {
     font-size: 4.5rem;
   }
 }
 
-@media(max-width: 508px) {
+@media (max-width: 508px) {
   .card {
     width: 300px;
-  
-
-   
   }
 
   .card_text-1 {
     font-size: 1.5rem;
   }
 
-  .card_img-1{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-wrap: wrap;
-   /* flex-direction: row; */
+  .card_img-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
   }
-
 }
 
 .card:hover {
@@ -198,8 +182,6 @@ a {
   font-weight: 500;
   color: var(--font-color-two);
 }
-
-
 
 /* .card_text-2 {
   font-size: 1.8rem;
@@ -220,16 +202,19 @@ a {
   line-height: 1.75;
 }
 
-.projects {
-  display: grid;
-  grid-template-columns: 1fr;
-  place-items: center;
+.projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   gap: 30px;
   margin-bottom: 50px;
-  
 }
 
-.grid_card {
+
+
+/* .grid_card {
   display: flex;
   height: 400px;
   width: 300px;
@@ -241,17 +226,17 @@ a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  border: var(--tertiary-bg-color) 1px solid;
+  border: var(--tertiary-bg-color) 1px solid; */
 
-  /* animation attempt */
-  /* overflow: hidden;
+/* animation attempt */
+/* overflow: hidden;
   position: relative;
   border-top: 1px solid rgba(255, 49, 49, 0.5);
   border-right: 1px solid rgba(0, 255, 255, 0.5);
   border-bottom: 1px solid rgba(57, 255, 20, 0.5);
   border-left: 1px solid rgba(255, 255, 113, 0.5); */
-  
-}
+
+/* } */
 
 span {
   position: absolute;
@@ -388,19 +373,19 @@ span {
   }
 } */
 
-.projects_card1 {
-  /* border: 1px solid var(--main-bg-color); */
-  /* background-image: url(./assets/images/25516.jpg); */
+/* .projects_card1 {
+  border: 1px solid var(--main-bg-color); 
+ background-image: url(./assets/images/25516.jpg); 
   
-}
+} */
 
-.projects_card2 {
+/* .projects_card2 {
   background-image: url(./assets/images/samuel-regan-asante-Rk8fHGGeyr8-unsplash.jpg);
-}
+} */
 
-.projects_card3 {
+/* .projects_card3 {
   background-image: url(./assets/images/25516.jpg);
-}
+} */
 
 /* MOBILE FORM */
 
@@ -567,35 +552,26 @@ footer {
     margin-right: 45px;
     margin-top: 30px;
     flex-direction: row;
-   
-
-    
-  
   }
 
-.img-box {
-  display: flex;
+  .img-box {
+    display: flex;
+  }
 
-  
+  .img-box img {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+  }
 
-}
-
-.img-box img {
-  height: 160px;
-  width: 160px;
-  border-radius: 50%;
-
-
-}
-
-.introduction_header,
-.introduction_text {
-  padding: 25px;
-  line-height: 1.75;
-  font-family: var(--font-nav-header);
-  font-size: 2rem;
-  color: var(--font-color-three);
-}
+  .introduction_header,
+  .introduction_text {
+    padding: 25px;
+    line-height: 1.75;
+    font-family: var(--font-nav-header);
+    font-size: 2rem;
+    color: var(--font-color-three);
+  }
 
   .skills {
     /* flex-direction: row; */
@@ -613,15 +589,18 @@ footer {
     font-size: 2.5rem;
     font-weight: 500;
   }
-  .projects {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  .projects-section {
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 50px;
   }
 
-  .grid_card {
+  /* .grid_card {
     height: 550px;
     width: 100%;
     flex-wrap: wrap;
-  }
-
-  
+  } */
 }

@@ -47,7 +47,7 @@ function Main() {
             Exciting Projects on the Horizon - Stay Tuned!
           </h3>
 
-          <section id="projects" className="projects">
+          <section id="projects-section" className="projects-section">
             <div className="grid_card projects_card1">
               <ProjectCard
             image={akpica}
@@ -68,6 +68,17 @@ function Main() {
             </div>
 
             <div className="grid_card projects_card2">
+            <ProjectCard
+            image={akpica}
+            altTitle={"akpica-ecommerce"}
+            imageUrl={"https://akpica.netlify.app/"}
+            title={"akpica ecommerce"}
+            description={
+              "This eCommerce platform is designed to provide users with a range of features that make browsing, selecting, and purchasing products."
+            }
+            demoUrl={"https://akpica.netlify.app/"}
+            codeUrl={"https://github.com/akiko-luka/akpica-ecommerce"}
+          />
               {/* <span className="top"></span>
               <span className="right"></span>
               <span className="bottom"></span>
@@ -75,6 +86,17 @@ function Main() {
             </div>
 
             <div className="grid_card projects_card3">
+            <ProjectCard
+            image={akpica}
+            altTitle={"akpica-ecommerce"}
+            imageUrl={"https://akpica.netlify.app/"}
+            title={"akpica ecommerce"}
+            description={
+              "This eCommerce platform is designed to provide users with a range of features that make browsing, selecting, and purchasing products."
+            }
+            demoUrl={"https://akpica.netlify.app/"}
+            codeUrl={"https://github.com/akiko-luka/akpica-ecommerce"}
+          />
               {/* <span className="top"></span>
               <span className="right"></span>
               <span className="bottom"></span>
