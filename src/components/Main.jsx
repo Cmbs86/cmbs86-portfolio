@@ -44,7 +44,7 @@ function Main() {
           </section>
         </IconContext.Provider>
 
-        <h3 className="project_text">My Latest Projects:</h3>
+        <h3 className="project_text" id="projects">My Latest Projects:</h3>
 
         <section id="projects-section" className="projects-section">
           <div className="grid_card projects_card1">
@@ -59,10 +59,7 @@ function Main() {
               demoUrl={"https://akpica.netlify.app/"}
               codeUrl={"https://github.com/Cmbs86/akpica-ecommerce"}
             />
-            {/* <span className="top"></span>
-              <span className="right"></span>
-              <span className="bottom"></span>
-              <span className="left"></span> */}
+           
           </div>
 
           <div className="grid_card projects_card2">
@@ -77,10 +74,7 @@ function Main() {
               demoUrl={"https://the-projects-js.netlify.app/#"}
               codeUrl={"https://github.com/Cmbs86/the-projects"}
             />
-            {/* <span className="top"></span>
-              <span className="right"></span>
-              <span className="bottom"></span>
-              <span className="left"></span> */}
+            
           </div>
 
           <div className="grid_card projects_card3">
