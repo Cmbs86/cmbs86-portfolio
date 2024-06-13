@@ -108,9 +108,9 @@ function Main() {
             </div>
           </section>
           <div className="form">
-            <h3>Let's Collaborate!</h3>
-            <p>Fill in the form below, and I'll get back to you!</p>
-            <form id="contact" action="#" method="post">
+            <h3>Contact me!</h3>
+            {/* <p>Fill in the form below, and I'll get back to you!</p> */}
+            {/* <form id="contact" action="#" method="post">
               <label for="name">Name:</label>
               <input
                 type="text"
@@ -139,7 +139,7 @@ function Main() {
               ></textarea>
 
               <input type="submit" value="Submit" />
-            </form>
+            </form> */}
           </div>
         </main>
    
