@@ -12,7 +12,7 @@ function Footer() {
   const currentYear = new Date().getFullYear();
   return (
     <>
-      <footer>
+      <footer id="contact">
         <IconContext.Provider value={{ className: "footer-icons" }}>
           <div className="icons-container">
             <ContactCard
