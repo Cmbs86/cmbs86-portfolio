@@ -251,6 +251,12 @@ footer {
 .footer-icons {
   font-size: 3.8rem;
   color: #ffca0a;
+
+  &:hover {
+    color: var(--tertiary-bg-color);
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
 }
 
 .copyright {
