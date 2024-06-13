@@ -48,7 +48,7 @@ function Main() {
         </IconContext.Provider>
 
           <h3 className="project_text">
-            Exciting Projects on the Horizon - Stay Tuned!
+            My Latest Projects:
           </h3>
 
           <section id="projects-section" className="projects-section">

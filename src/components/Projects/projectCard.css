@@ -128,15 +128,7 @@
         background-color: var(--secondary-bg-color);
         color: var(--main-bg-color);
         padding: 5px 5px;
-        /* transition: all 0.2s ease-in-out;
-        box-shadow: var(--box-shadow); */
-
-        /* &:hover {
-          background: var(--blue);
-          color: var(--white);
-          border: 3px solid var(--blue);
-          box-shadow: none;
-        } */
+    
       }
 
       p {
