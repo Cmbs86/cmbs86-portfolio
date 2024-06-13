@@ -155,7 +155,6 @@ a {
 }
 
 @media (max-width: 508px) {
-  
   .card {
     width: 300px;
   }
@@ -173,17 +172,13 @@ a {
   }
 }
 
-.card:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
-}
+
 
 .card_text-1 {
   font-size: 1.8rem;
   font-weight: 500;
   color: var(--font-color-two);
 }
-
 
 .project_text {
   color: var(--font-color-three);
@@ -207,27 +202,18 @@ a {
   margin-bottom: 50px;
 }
 
-
 span {
   position: absolute;
   border-radius: 100vmax;
 }
 
+/* MOBILE CONTACT ME */
 
-
-/* MOBILE FORM */
-
-.form {
-  margin: 0 auto;
-  padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 50px;
-}
-
+/* h3 CONTACT ME */
 h3 {
   text-align: center;
   font-size: 2rem;
-  color: var(--font-color-one);
+  color: var(--font-color-three);
   font-family: var(--font-nav-header);
 }
 
@@ -241,43 +227,6 @@ p {
   line-height: 1.75;
 }
 
-label {
-  display: block;
-  margin-bottom: 5px;
-  color: var(--font-color-three);
-  font-family: var(--font-nav-header);
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-family: var(--font-nav-header);
-}
-
-input[type="submit"] {
-  background-color: var(--main-bg-color);
-  color: var(--font-color-two);
-  font-weight: 500;
-  padding: 10px 70px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-}
-
-input[type="text"]:focus {
-  border: var(--font-color-one);
-}
-
 /* FOOTER MOBILE */
 
 footer {
@@ -287,33 +236,21 @@ footer {
   text-align: center;
 }
 
-.social-icons {
-  font-size: 24px;
-  margin: 10px;
-}
-
-.social-icons a {
-  color: var(--font-color-one);
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-.fab {
+.icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
   font-size: 2.5rem;
+  color: #ffca0a;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 1.75;
 }
 
-.credit_links {
-  font-size: 0.8rem;
-}
-.credits {
-  color: var(--font-color-three);
-  font-size: 0.8rem;
-  text-align: center;
-}
-
-.unsplash_link {
-  color: var(--font-color-three);
-  font-size: 0.8rem;
+.footer-icons {
+  font-size: 3.8rem;
+  color: #ffca0a;
 }
 
 .copyright {
@@ -404,7 +341,6 @@ footer {
   .skills {
     flex-wrap: wrap;
     align-items: center;
-    
   }
 
   .card {
@@ -424,6 +360,4 @@ footer {
     gap: 30px;
     margin-bottom: 50px;
   }
-
-  
 }
