@@ -309,6 +309,7 @@ footer {
     color: var(--secondary-bg-color);
     transform: translate(0, 0) rotate(90deg);
     transform-origin: 0, 0;
+    margin-left: 2.5rem;
   }
   /* INTRO DESKTOP */
 
