@@ -15,30 +15,8 @@ function Footer() {
             <i className="fab fa-instagram"></i>
           </a>
         </div>
-        <p className="credit_links">
-          "Coming soon" images by{" "}
-          <a
-            className="credits"
-            href="https://unsplash.com/de/@fkaregan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-            target="blank"
-          >
-            Samuel Regan-Asante
-          </a>{" "}
-          on{" "}
-          <a
-            className="unsplash_link"
-            href="https://unsplash.com/de/fotos/Rk8fHGGeyr8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-            target="blank"
-          >
-            Unsplash
-          </a>
-          <br />
-          "Watch this space image" designed by{" "}
-          <a className="credits" href="http://www.freepik.com" target="_blank">
-            starline / Freepik
-          </a>
-        </p>
-        <p className="copyright"> {currentYear}&copy;  All Rights Reserved</p>
+       
+        <p className="copyright"> {currentYear}&copy; Carlos Sousa |  All Rights Reserved</p>
       </footer>
     </>
   );
