@@ -17,6 +17,7 @@ import ProjectCard from "./Projects/ProjectCard.jsx";
 import akpica from "../assets/images/akpica-ecommerce.png";
 import theprojects from "../assets/images/the-projects.jpeg";
 import firstportfolio from "../assets/images/first-portfolio.png";
+import akpicaBlog from "../assets/images/Akpica-blog.png";
 
 function Main() {
   return (
@@ -49,7 +50,23 @@ function Main() {
         <h3 className="project_text" id="projects">My Latest Projects:</h3>
 
         <section id="projects-section" className="projects-section">
-          <div className="grid_card projects_card1">
+        <div className="grid_card projects_card1">
+            <ProjectCard
+              image={akpicaBlog}
+              altTitle={"akpica-blog"}
+              imageUrl={"https://akpicablog.netlify.app/"}
+              title={"Akpica Blog"}
+              description={
+                "This blog, created by web developers, provides valuable resources and insights for developers of all levels to succeed. "
+              }
+              demoUrl={"https://akpicablog.netlify.app/"}
+              codeUrl={"https://github.com/Cmbs86/akpica-blog"}
+            />
+          </div>
+
+
+
+          <div className="grid_card projects_card2">
             <ProjectCard
               image={akpica}
               altTitle={"akpica-ecommerce"}
@@ -64,7 +81,7 @@ function Main() {
            
           </div>
 
-          <div className="grid_card projects_card2">
+          <div className="grid_card projects_card3">
             <ProjectCard
               image={theprojects}
               altTitle={"the-projects"}
@@ -79,7 +96,7 @@ function Main() {
             
           </div>
 
-          <div className="grid_card projects_card3">
+          <div className="grid_card projects_card4">
             <ProjectCard
               image={firstportfolio}
               altTitle={"first-portfolio"}
@@ -92,6 +109,10 @@ function Main() {
               codeUrl={"https://github.com/Cmbs86/first-portfolio"}
             />
           </div>
+
+          
+
+
         </section>
         <div className="form">
           <h3>Contact me:</h3>
