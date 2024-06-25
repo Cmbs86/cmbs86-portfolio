@@ -157,7 +157,9 @@ a {
 
 @media (max-width: 508px) {
   .card {
-    width: 300px;
+    width: 360px;
+   
+   
   }
 
   .card_text-1 {
@@ -170,6 +172,16 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     /* flex-direction: row; */
+  }
+}
+
+@media (min-width: 509px){
+  .card_img-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 }
 
