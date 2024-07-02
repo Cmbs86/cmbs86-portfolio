@@ -80,7 +80,8 @@
       padding: 5px;
       margin: 0 8px 0;
       font-size: 1.3rem;
-      font-weight: 700;
+      font-weight: 400;
+      line-height: 1.5;
       color: var(--font-color-one);
     }
 
@@ -95,22 +96,28 @@
       align-items: center;
       margin-top: 2rem;
       margin-bottom: 2rem;
+      
+
 
     .code, .demo{
       display: flex;
       align-items: center;
       background-color: var(--secondary-bg-color);
-      color: var(--main-bg-color);
       padding: 3px 3px;
       transition: all 0.2s ease-in-out;
       border-radius: 6px;
-  
+      
+     
+     
 
       &:hover {
         background: var(--font-color-one);
         color: var(--font-color-three);
-        border: 1px solid var(--blue);
-        box-shadow: none;
+        /* border: 1px solid var(--blue); */
+        /* outline: 1px solid transparent; */
+        box-shadow: var(--font-color-one) 0px 0px 5px 1px;
+        
+        
       }
     }
     
