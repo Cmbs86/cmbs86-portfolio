@@ -11,7 +11,11 @@ function Intro() {
           <br />A 38-year-old Junior Full Stack Web Developer.
         </h1>
         <p className="introduction_text">
-          Transitioning from an 8-year career as a cook, I've found my passion
+          After an 8-year career as a chef, I've discovered my passion for
+          crafting digital experiences as a web developer. I enjoy creating
+          engaging web functionalities and am committed to continuous learning
+          and exploring new technologies.
+          {/* Transitioning from an 8-year career as a cook, I've found my passion
           in crafting digital experiences as a web developer. My expertise lies
           in the MERN stack: using React.js for dynamic frontends, Node.js and
           Express.js for robust backends, and MongoDB for flexible data storage.
@@ -29,7 +33,7 @@ function Intro() {
           Outside the world of coding, you'll often find me lost in the rhythms
           of my bass guitar. I've played in 2 band projects in the past and
           currently working on another musical venture. Let's collaborate and
-          turn your ideas into beautifully functional web solutions.
+          turn your ideas into beautifully functional web solutions. */}
         </p>
       </div>
     </>

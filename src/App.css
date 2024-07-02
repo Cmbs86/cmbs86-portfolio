@@ -59,6 +59,7 @@ body {
   justify-content: space-around;
   align-items: center;
   gap: 10px;
+ 
 }
 
 .navbar a {
@@ -67,6 +68,11 @@ body {
   display: inline-block;
 }
 
+
+.navbar a:hover {
+  text-decoration: underline;
+  
+}
 li {
   font-family: var(--font-nav-header);
 }
