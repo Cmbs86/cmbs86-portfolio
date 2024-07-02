@@ -156,13 +156,19 @@ a {
   border-radius: 5px;
 
   .skill-card-icons {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
+   
   }
 }
 
 @media (max-width: 508px) {
   .card {
     width: 360px;
+
+    .skill-card-icons {
+      font-size: 3rem;
+     
+    }
   }
 
   .card_text-1 {
@@ -174,7 +180,7 @@ a {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    /* flex-direction: row; */
+   
   }
 }
 
@@ -376,6 +382,11 @@ footer {
   .card {
     height: 500px;
     width: 100%;
+    
+    .skill-card-icons {
+      font-size: 4.5rem;
+     
+    }
   }
 
   .card_text-1 {
