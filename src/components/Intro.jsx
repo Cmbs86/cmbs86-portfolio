@@ -3,13 +3,21 @@ function Intro() {
   return (
     <>
       <div id="about" className="introduction">
-        <h1 className="introduction_header">
-          <div className="img-box">
-            <img src={Avatar} alt="avatar" />
+        <div className="general_intro_box">
+          <div className="img-square">
+            <div className="img-box">
+              <img src={Avatar} alt="avatar" />
+            </div>
           </div>
-          Hi, I'm Carlos Sousa.
-          <br />A 38-year-old Junior Full Stack Web Developer.
-        </h1>
+
+          <div className="intro_header_box">
+            <h1 className="introduction_header">
+              Hi, I'm Carlos Sousa.
+              <br />A Junior Full Stack Web Developer, born in Sao Paulo, Brazil.
+            </h1>
+          </div>
+        </div>
+
         <p className="introduction_text">
           After an 8-year career as a chef, I've discovered my passion for
           crafting digital experiences as a web developer. I enjoy creating
