@@ -97,17 +97,21 @@ a {
   align-items: center;
 }
 
+
+
 .introduction_header {
   display: flex;
   align-items: center;
   text-align: center;
   flex-direction: column;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .img-box {
   display: flex;
-  margin-bottom: 30px;
+  justify-content: center;
+  margin-top: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .img-box img {
@@ -338,25 +342,60 @@ footer {
     margin-left: 8rem;
     margin-right: 8rem;
   }
-
-  .introduction_header {
-    display: flex;
-    text-align: left;
-    gap: 45px;
-    margin-right: 45px;
+  .general_intro_box{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 30px;
-    flex-direction: row;
+    
+    
+  }
+  .img-square{
+    flex: 1;
+    justify-content: center;
+    max-width: 20%;
   }
 
-  .img-box {
-    display: flex;
+  .img-box{
+    margin-top: 0;
   }
+
 
   .img-box img {
-    height: 160px;
+    display: flex;
+    justify-content: center;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any inline spacing */
     width: 160px;
     border-radius: 50%;
   }
+
+  .intro_header_box{
+    flex: 5; 
+  }
+
+  .introduction_header {
+
+    text-align: left;
+    flex-direction: row;
+    width: 100%;
+   height: auto;
+    
+
+  }
+
+
+ 
+.intro_header_box{
+  /* border: 1px solid red; */
+  width: 80%;
+} 
+
+
+
+ 
+
 
   .introduction_header,
   .introduction_text {
