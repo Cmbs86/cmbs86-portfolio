@@ -18,7 +18,8 @@ import akpica from "../assets/images/akpica-ecommerce.png";
 import theprojects from "../assets/images/the-projects.jpeg";
 import firstportfolio from "../assets/images/first-portfolio.png";
 import akpicaBlog from "../assets/images/Akpica-blog.png";
-
+import crusaders from "../assets/images/e-commerce_crusaders.webp";
+import GridX from "../assets/images/GridX.webp";
 function Main() {
   return (
     <>
@@ -92,6 +93,36 @@ function Main() {
               }
               demoUrl={"https://the-projects-js.netlify.app/#"}
               codeUrl={"https://github.com/Cmbs86/the-projects"}
+            />
+            
+          </div>
+
+          <div className="grid_card projects_card3">
+            <ProjectCard
+              image={crusaders}
+              altTitle={"crusaders-ecommerce"}
+              imageUrl={"https://crusaders-ecommerce.netlify.app/"}
+              title={"Crusaders E-commerce"}
+              description={
+                "This online store, created using HTML, CSS, and JavaScript, includes product viewing, a cart for purchases, and an adaptable layout."
+              }
+              demoUrl={"https://crusaders-ecommerce.netlify.app/"}
+              codeUrl={"https://github.com/Cmbs86/ecommerce-crusaders"}
+            />
+            
+          </div>
+
+          <div className="grid_card projects_card3">
+            <ProjectCard
+              image={GridX}
+              altTitle={"GridX"}
+              imageUrl={"https://gridxportfolio.netlify.app/"}
+              title={"GridX Portfolio"}
+              description={
+                "GridX is a mobile-friendly portfolio template featuring a sleek design and fluid animations, constructed using HTML, CSS, and JavaScript"
+              }
+              demoUrl={"https://gridxportfolio.netlify.app/"}
+              codeUrl={"https://github.com/Cmbs86/gridX?tab=readme-ov-file"}
             />
             
           </div>
