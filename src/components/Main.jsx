@@ -12,6 +12,7 @@ import { RiTailwindCssLine } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import ProjectCard from "./Projects/ProjectCard.jsx";
+import StarterKitCard from "./starterkits/StarterKidCard.jsx";
 
 //images
 import akpica from "../assets/images/akpica-ecommerce.png";
@@ -20,6 +21,9 @@ import firstportfolio from "../assets/images/first-portfolio.png";
 import akpicaBlog from "../assets/images/Akpica-blog.png";
 import crusaders from "../assets/images/e-commerce_crusaders.webp";
 import GridX from "../assets/images/GridX.webp";
+import basicServer from "../assets/images/basic-server.png";
+import mern from "../assets/images/mern.png";
+import react from "../assets/images/react.webp";
 function Main() {
   return (
     <>
@@ -48,10 +52,12 @@ function Main() {
           </section>
         </IconContext.Provider>
 
-        <h3 className="project_text" id="projects">My Latest Projects:</h3>
+        <h3 className="project_text" id="projects">
+          My Latest Projects:
+        </h3>
 
         <section id="projects-section" className="projects-section">
-        <div className="grid_card projects_card1">
+          <div className="grid_card projects_card1">
             <ProjectCard
               image={akpicaBlog}
               altTitle={"akpica-blog"}
@@ -65,8 +71,6 @@ function Main() {
             />
           </div>
 
-
-
           <div className="grid_card projects_card2">
             <ProjectCard
               image={akpica}
@@ -79,7 +83,6 @@ function Main() {
               demoUrl={"https://akpica.netlify.app/"}
               codeUrl={"https://github.com/Cmbs86/akpica-ecommerce"}
             />
-           
           </div>
 
           <div className="grid_card projects_card3">
@@ -94,7 +97,6 @@ function Main() {
               demoUrl={"https://the-projects-js.netlify.app/#"}
               codeUrl={"https://github.com/Cmbs86/the-projects"}
             />
-            
           </div>
 
           <div className="grid_card projects_card3">
@@ -109,7 +111,6 @@ function Main() {
               demoUrl={"https://crusaders-ecommerce.netlify.app/"}
               codeUrl={"https://github.com/Cmbs86/ecommerce-crusaders"}
             />
-            
           </div>
 
           <div className="grid_card projects_card3">
@@ -124,7 +125,6 @@ function Main() {
               demoUrl={"https://gridxportfolio.netlify.app/"}
               codeUrl={"https://github.com/Cmbs86/gridX?tab=readme-ov-file"}
             />
-            
           </div>
 
           <div className="grid_card projects_card4">
@@ -140,14 +140,39 @@ function Main() {
               codeUrl={"https://github.com/Cmbs86/first-portfolio"}
             />
           </div>
-
-          
-
-
         </section>
-        <div className="form">
-          <h3>Contact me:</h3>
-        </div>
+        <h3 className="project_text" id="projects">
+          Starter Kits
+        </h3>
+
+        <p className="starter_kit">
+          I've put together a range of Starter Kits to help developers avoid the
+          hassles of configuration and setup. With these kits, you can dive
+          straight into coding, focusing on implementing your ideas rather than
+          dealing with the tedious groundwork of starting projects.
+        </p>
+        <section className="projects-section">
+          <StarterKitCard
+            starterLink={"https://github.com/Cmbs86/Basic-Server"}
+            starterImg={basicServer}
+            altTitle={"Basic Server"}
+          />
+
+          <StarterKitCard
+            starterLink={"https://github.com/Cmbs86/MERN/blob/main/mern.png"}
+            starterImg={mern}
+            altTitle={"Mern Starter kit"}
+          />
+
+          <StarterKitCard
+            starterLink={"https://github.com/Cmbs86/rvct"}
+            starterImg={react}
+            altTitle={"React Vite Clean Template"}
+          />
+        </section>
+        <h3 className="project_text" id="projects">
+          Contact me:
+        </h3>
       </main>
     </>
   );
