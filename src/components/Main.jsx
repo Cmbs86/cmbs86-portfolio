@@ -142,7 +142,7 @@ function Main() {
           </div>
         </section>
         <h3 className="project_text" id="projects">
-          Starter Kits
+          Starter Kits:
         </h3>
 
         <p className="starter_kit">
@@ -170,7 +170,7 @@ function Main() {
             altTitle={"React Vite Clean Template"}
           />
         </section>
-        <h3 className="project_text" id="projects">
+        <h3>
           Contact me:
         </h3>
       </main>
