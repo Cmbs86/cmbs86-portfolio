@@ -171,11 +171,12 @@ a {
   margin-bottom: 50px;
 }
 
+
+
 .about_me {
-  font-size: 1.5rem;
-  line-height: 1.45;
-  text-align: center;
-  margin: 0 auto;
+  
+  display: flex;
+  flex-direction: column;
   margin-bottom: 50px;
   background-color: var(--main-bg-color);
   border-radius: 5px;
@@ -184,6 +185,18 @@ a {
   p {
     color: var(--font-color-two);
   }
+}
+
+.about_me_text{
+  font-size: 1.5rem;
+  padding: 25px;
+  line-height: 1.45;
+  text-align: center;
+  font-family: var(--font-nav-header);
+  color: var(--font-color-three);
+  max-width: 800px;
+  margin: 0 auto;
+
 }
 
 @media (max-width: 508px) {
@@ -205,6 +218,8 @@ a {
     justify-content: center;
     flex-wrap: wrap;
   }
+
+
 }
 
 @media (min-width: 509px) {

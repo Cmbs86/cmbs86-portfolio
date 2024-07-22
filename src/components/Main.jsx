@@ -172,7 +172,7 @@ function Main() {
         </section>
 
         <section className="about_me">
-          <div></div>
+          <div className="about_me_text">
           <h3>My Journey:</h3>
           <p>
             I transitioned from an 8-year career as a chef to become a web
@@ -196,6 +196,7 @@ function Main() {
             currently working on another musical venture. Let's collaborate and
             turn your ideas into beautifully functional web solutions.
           </p>
+          </div>
         </section>
 
         <h3>
