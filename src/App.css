@@ -97,8 +97,6 @@ a {
   align-items: center;
 }
 
-
-
 .introduction_header {
   display: flex;
   align-items: center;
@@ -161,12 +159,10 @@ a {
 
   .skill-card-icons {
     font-size: 3.5rem;
-   
   }
 }
 
-.starter_kit{
-
+.starter_kit {
   font-size: 1.5rem;
   line-height: 1.45;
   text-align: center;
@@ -175,13 +171,27 @@ a {
   margin-bottom: 50px;
 }
 
+.about_me {
+  font-size: 1.5rem;
+  line-height: 1.45;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: var(--main-bg-color);
+  border-radius: 5px;
+
+  h3,
+  p {
+    color: var(--font-color-two);
+  }
+}
+
 @media (max-width: 508px) {
   .card {
     width: 360px;
 
     .skill-card-icons {
       font-size: 3rem;
-     
     }
   }
 
@@ -194,7 +204,6 @@ a {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-   
   }
 }
 
@@ -235,8 +244,6 @@ a {
   gap: 30px;
   margin-bottom: 50px;
 }
-
-
 
 span {
   position: absolute;
@@ -354,25 +361,22 @@ footer {
     margin-left: 8rem;
     margin-right: 8rem;
   }
-  .general_intro_box{
-    display:flex;
+  .general_intro_box {
+    display: flex;
     width: 100%;
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
-    
-    
   }
-  .img-square{
+  .img-square {
     flex: 1;
     justify-content: center;
     max-width: 20%;
   }
 
-  .img-box{
+  .img-box {
     margin-top: 0;
   }
-
 
   .img-box img {
     display: flex;
@@ -383,31 +387,21 @@ footer {
     border-radius: 50%;
   }
 
-  .intro_header_box{
-    flex: 5; 
+  .intro_header_box {
+    flex: 5;
   }
 
   .introduction_header {
-
     text-align: left;
     flex-direction: row;
     width: 100%;
-   height: auto;
-    
-
+    height: auto;
   }
 
-
- 
-.intro_header_box{
-  /* border: 1px solid red; */
-  width: 80%;
-} 
-
-
-
- 
-
+  .intro_header_box {
+    /* border: 1px solid red; */
+    width: 80%;
+  }
 
   .introduction_header,
   .introduction_text {
@@ -422,7 +416,6 @@ footer {
     font-size: 1.5rem;
     line-height: 1.45;
     text-align: center;
-   
   }
 
   .skills {
@@ -433,10 +426,9 @@ footer {
   .card {
     height: 500px;
     width: 100%;
-    
+
     .skill-card-icons {
       font-size: 4.5rem;
-     
     }
   }
 
@@ -452,6 +444,4 @@ footer {
     gap: 30px;
     margin-bottom: 50px;
   }
-
-  
 }

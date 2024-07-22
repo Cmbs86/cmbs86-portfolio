@@ -170,6 +170,34 @@ function Main() {
             altTitle={"React Vite Clean Template"}
           />
         </section>
+
+        <section className="about_me">
+          <div></div>
+          <h3>My Journey:</h3>
+          <p>
+            I transitioned from an 8-year career as a chef to become a web
+            developer, driven by my passion for creating digital experiences. My
+            expertise lies in the MERN stack, using React.js for dynamic
+            frontends, Node.js and Express.js for robust backends, and MongoDB
+            for flexible data storage.
+          </p>
+          <p>
+            When it comes to creating interactive web functionality, I turn to
+            JavaScript, weaving together engaging user experiences. From the
+            layout to the visual appeal, I meticulously shape the structure with
+            HTML and breathe life into designs with CSS. Drawing from my culinary
+            background, I bring creativity, attention to detail, and a love for
+            problem-solving into every line of code. Continuously studying and
+            learning new technologies is a core part of my journey.
+          </p>
+          <p>
+            Outside the world of coding, you'll often find me lost in the rhythms
+            of my bass guitar. I've played in 2 band projects in the past and
+            currently working on another musical venture. Let's collaborate and
+            turn your ideas into beautifully functional web solutions.
+          </p>
+        </section>
+
         <h3>
           Contact me:
         </h3>
