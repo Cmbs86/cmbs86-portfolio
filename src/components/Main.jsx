@@ -173,35 +173,37 @@ function Main() {
 
         <section className="about_me">
           <div className="about_me_text">
-          <h3>My Journey:</h3>
-          <p>
-            I transitioned from an 8-year career as a chef to become a web
-            developer, driven by my passion for creating digital experiences. My
-            expertise lies in the MERN stack, using React.js for dynamic
-            frontends, Node.js and Express.js for robust backends, and MongoDB
-            for flexible data storage.
-          </p>
-          <p>
-            When it comes to creating interactive web functionality, I turn to
-            JavaScript, weaving together engaging user experiences. From the
-            layout to the visual appeal, I meticulously shape the structure with
-            HTML and breathe life into designs with CSS. Drawing from my culinary
-            background, I bring creativity, attention to detail, and a love for
-            problem-solving into every line of code. Continuously studying and
-            learning new technologies is a core part of my journey.
-          </p>
-          <p>
-            Outside the world of coding, you'll often find me lost in the rhythms
-            of my bass guitar. I've played in 2 band projects in the past and
-            currently working on another musical venture. Let's collaborate and
-            turn your ideas into beautifully functional web solutions.
-          </p>
+            <h3>My Journey:</h3>
+            <p>
+              Having spent around 12 years in Europe, life took me in many
+              interesting directions. It was in Berlin, however, that I finally
+              reconnected with my passion for web development—a passion that
+              began years ago in Brazil. I’m truly excited and grateful to
+              embark on this amazing learning journey with new technologies.
+            </p>
+            <p>
+              Beyond coding, my passion for music fuels my creativity. As a bass
+              guitarist, I've played in two band projects and am currently
+              working on another musical venture. Music enhances my ability to
+              think creatively and approach problem-solving from different
+              angles. Continuously studying and learning new technologies is a
+              core part of my journey.
+            </p>
+            <p>
+              When it comes to crafting interactive web experiences, I rely on
+              JavaScript to create engaging and dynamic functionality. Using
+              React, I design intuitive and responsive frontends, while Node.js
+              and MongoDB power robust and scalable backends. My culinary
+              background, combined with my musical skills, has instilled in me a
+              profound sense of creativity, attention to detail, and a passion
+              for problem-solving, all of which I infuse into every line of
+              code. Committed to continuous growth, I actively study and embrace
+              new technologies as an integral part of my journey.
+            </p>
           </div>
         </section>
 
-        <h3>
-          Contact me:
-        </h3>
+        <h3>Contact me:</h3>
       </main>
     </>
   );

@@ -19,7 +19,7 @@ function Intro() {
         </div>
 
         <p className="introduction_text">
-          After an 8-year career as a chef, I've discovered my passion for
+          After an 9-year career as a chef, I've discovered my passion for
           crafting digital experiences as a web developer. I enjoy creating
           engaging web functionalities and am committed to continuous learning
           and exploring new technologies.
