@@ -22,6 +22,7 @@ import akpicaBlog from "../assets/images/Akpica-blog.png";
 import crusaders from "../assets/images/e-commerce_crusaders.webp";
 import GridX from "../assets/images/GridX.webp";
 import basicServer from "../assets/images/basic-server.png";
+import server from "../assets/images/server.webp"
 import mern from "../assets/images/mern.png";
 import react from "../assets/images/react.webp";
 function Main() {
@@ -154,7 +155,7 @@ function Main() {
         <section className="projects-section">
           <StarterKitCard
             starterLink={"https://github.com/Cmbs86/Basic-Server"}
-            starterImg={basicServer}
+            starterImg={server}
             altTitle={"Basic Server"}
           />
 
