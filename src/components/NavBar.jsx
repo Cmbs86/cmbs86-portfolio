@@ -10,8 +10,8 @@ function NavBar() {
       <nav className="nav-container">
         <ul className="navbar">
         <li><a href="#intro">Intro</a></li>
-          <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
           <IconContext.Provider value={{className: "nav-icons" }}>
           <div className="icons">
