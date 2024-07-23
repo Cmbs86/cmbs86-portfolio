@@ -171,9 +171,9 @@ function Main() {
           />
         </section>
 
-        <section className="about_me">
+        <section className="about_me" id="about">
           <div className="about_me_text">
-            <h3>My Journey:</h3>
+            <h3>About Me:</h3>
             <p>
               Having spent around 12 years in Europe, life took me in many
               interesting directions. It was in Berlin, however, that I finally

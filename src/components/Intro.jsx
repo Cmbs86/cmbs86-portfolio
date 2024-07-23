@@ -2,7 +2,7 @@ import Avatar from "../assets/images/avatar.webp";
 function Intro() {
   return (
     <>
-      <div id="about" className="introduction">
+      <div className="introduction" id="intro">
         <div className="general_intro_box">
           <div className="img-square">
             <div className="img-box">
