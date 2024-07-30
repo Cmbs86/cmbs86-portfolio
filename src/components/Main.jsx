@@ -21,7 +21,7 @@ import firstportfolio from "../assets/images/first-portfolio.png";
 import akpicaBlog from "../assets/images/Akpica-blog.png";
 import crusaders from "../assets/images/e-commerce_crusaders.webp";
 import GridX from "../assets/images/GridX.webp";
-import server from "../assets/images/server.webp"
+import server from "../assets/images/server.webp";
 import mern from "../assets/images/mern.png";
 import react from "../assets/images/react.webp";
 function Main() {
@@ -175,30 +175,27 @@ function Main() {
           <div className="about_me_text">
             <h3>About Me:</h3>
             <p>
-              Having spent around 12 years in Europe, life took me in many
-              interesting directions. It was in Berlin, however, that I finally
-              reconnected with my passion for web development—a passion that
-              began years ago in Brazil. I’m truly excited and grateful to
-              embark on this amazing learning journey with new technologies.
+              Full Stack Web Developer with expertise in the MERN stack. I have
+              strong skills in JavaScript, frontend frameworks like React and
+              Tailwind CSS, and server-side programming with Node.js and
+              MongoDB. I graduated from a comprehensive one-year full-time Full
+              Stack Web Development program at DCI - Digital Career Insitute.
             </p>
             <p>
-              Beyond coding, my passion for music fuels my creativity. As a bass
-              guitarist, I've played in two band projects and am currently
-              working on another musical venture. Music enhances my ability to
-              think creatively and approach problem-solving from different
-              angles. Continuously studying and learning new technologies is a
-              core part of my journey.
+              My background includes a technical course in environmental
+              sciences, where I learned the importance of resourcefulness,
+              creativity, empathy, and sustainability. Coupled with 10 years of
+              hands-on experience as a chef, which taught me to learn by doing,
+              I bring adaptability, critical thinking, time management,
+              attention to detail, teamwork, and problem-solving skills.
             </p>
             <p>
-              When it comes to crafting interactive web experiences, I rely on
-              JavaScript to create engaging and dynamic functionality. Using
-              React, I design intuitive and responsive frontends, while Node.js
-              and MongoDB power robust and scalable backends. My culinary
-              background, combined with my musical skills, has instilled in me a
-              profound sense of creativity, attention to detail, and a passion
-              for problem-solving, all of which I infuse into every line of
-              code. Committed to continuous growth, I actively study and embrace
-              new technologies as an integral part of my journey.
+              Outside of development, I have a passion for travel and learning
+              about new cultures, having lived in three different countries.
+              Music also plays a significant role in my life. I play the bass
+              guitar, have performed in two bands, and am currently working on a
+              new project with friends. I frequently attend music events and see
+              music as an essential part of who I am.
             </p>
           </div>
         </section>

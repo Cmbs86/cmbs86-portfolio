@@ -19,29 +19,10 @@ function Intro() {
         </div>
 
         <p className="introduction_text">
-          After an 9-year career as a chef, I've discovered my passion for
-          crafting digital experiences as a web developer. I enjoy creating
-          engaging web functionalities and am committed to continuous learning
-          and exploring new technologies.
-          {/* Transitioning from an 8-year career as a cook, I've found my passion
-          in crafting digital experiences as a web developer. My expertise lies
-          in the MERN stack: using React.js for dynamic frontends, Node.js and
-          Express.js for robust backends, and MongoDB for flexible data storage.
-          <br />
-          <br />
-          When it comes to creating interactive web functionality, I turn to
-          JavaScript, weaving together engaging user experiences. From the
-          layout to the visual appeal, I meticulously shape the structure with
-          HTML and breathe life into designs with CSS. Drawing from my culinary
-          background, I bring creativity, attention to detail, and a love for
-          problem-solving into every line of code. Continuously studying and
-          learning new technologies is a core part of my journey.
-          <br />
-          <br />
-          Outside the world of coding, you'll often find me lost in the rhythms
-          of my bass guitar. I've played in 2 band projects in the past and
-          currently working on another musical venture. Let's collaborate and
-          turn your ideas into beautifully functional web solutions. */}
+          Having spent around 12 years in Europe, life took me in many
+          interesting directions. It was in Berlin, however, that I finally
+          reconnected with my passion for web development. A passion that began
+          years ago in Brazil.
         </p>
       </div>
     </>
