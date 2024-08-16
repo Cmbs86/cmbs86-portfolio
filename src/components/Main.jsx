@@ -141,16 +141,16 @@ function Main() {
             />
           </div>
         </section>
-        <h3 className="project_text" id="projects">
+        <h3 className="starter_kit_text" id="projects">
           Starter Kits:
         </h3>
-
+        <div className="starter_kit_box">
         <p className="starter_kit">
           I've put together a range of Starter Kits to help developers avoid the
           hassles of configuration and setup. With these kits, you can dive
           straight into coding, focusing on implementing your ideas rather than
           dealing with the tedious groundwork of starting projects.
-        </p>
+        </p></div>
         <section className="projects-section">
           <StarterKitCard
             starterLink={"https://github.com/Cmbs86/Basic-Server"}
@@ -171,7 +171,8 @@ function Main() {
           />
         </section>
 
-        <section className="about_me" id="about">
+        <section className="about_me_container"  id="about">
+          <div className="about_me">
           <div className="about_me_text">
             <h3>About Me:</h3>
             <p>
@@ -197,6 +198,7 @@ function Main() {
               new project with friends. I frequently attend music events and see
               music as an essential part of who I am.
             </p>
+          </div>
           </div>
         </section>
 
