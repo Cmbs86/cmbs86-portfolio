@@ -202,7 +202,7 @@ function Main() {
           </div>
         </section>
 
-        <h3>Contact me:</h3>
+        <h3 className="contact_me">Contact me:</h3>
       </main>
     </>
   );
