@@ -1,3 +1,7 @@
+
+
+
+
 :root {
   /* colors */
   --main-bg-color: #ffca0a;
@@ -63,6 +67,39 @@ img {
 
 body {
   background: var(--secondary-bg-color);
+}
+
+/* Keyframes for the floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Different animations applied to each icon */
+.icon-1 {
+  animation: float 3s ease-in-out infinite;
+  
+}
+
+.icon-2 {
+  animation: float 4s ease-in-out infinite;
+}
+
+.icon-3 {
+  animation: float 5s ease-in-out infinite;
+}
+
+.icon-4 {
+  animation: float 6s ease-in-out infinite;
+  
+
 }
 
 /* MOBILE HEADER/NAV */

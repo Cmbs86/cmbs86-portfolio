@@ -2,12 +2,15 @@
 import { IconContext } from "react-icons";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaCss3Alt } from "react-icons/fa6";
+import { SiTypescript } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa6";
 import { TbBrandVscode } from "react-icons/tb";
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa6";
+import { FaBootstrap } from "react-icons/fa";
+import { FaSass } from "react-icons/fa";
 import { RiTailwindCssLine } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
@@ -31,22 +34,26 @@ function Main() {
         <IconContext.Provider value={{ className: "skill-card-icons" }}>
           <section className="skills">
             <div className="card card_1">
-              <h3 className="card_text-1">Languages:</h3>
+              <h3 className="card_text-1">Tech Stack:</h3>
               <div className="card_img-1">
-                <FaHtml5 />
-                <FaCss3Alt />
-                <IoLogoJavascript />
+                <FaHtml5 className="icon-1" />
+                <FaCss3Alt className="icon-2" />
+                <IoLogoJavascript className="icon-3" />
+                <FaNode className="icon-1" />
+                <FaReact className="icon-1" />
+                <SiTypescript className="icon-4" />
               </div>
-              <h3 className="card_text-1">Tools & Technologies:</h3>
+              {/* <h3 className="card_text-1">Tools & Technologies:</h3> */}
               <div className="card_img-1">
-                <FaNode />
-                <TbBrandVscode />
-                <FaGitAlt />
-                <FaGithub />
-                <FaReact />
-                <RiTailwindCssLine />
-                <SiMongodb />
-                <SiExpress />
+                <TbBrandVscode className="icon-2" />
+                <FaGitAlt className="icon-3" />
+                <FaGithub className="icon-4" />
+                <RiTailwindCssLine className="icon-4" />
+                <FaSass className="icon-1"/>
+                <SiMongodb className="icon-1" />
+                <SiExpress className="icon-3" />
+                <FaBootstrap className="icon-2" />
+
               </div>
             </div>
           </section>
