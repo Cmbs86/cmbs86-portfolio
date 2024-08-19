@@ -18,6 +18,30 @@
   --font-color-three: #ebebeb;
 }
 
+/* SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--secondary-bg-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main-bg-color);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--main-bg-color);
+}
+
+
 html {
   scroll-behavior: smooth;
 }
