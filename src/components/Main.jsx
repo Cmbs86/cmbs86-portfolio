@@ -21,6 +21,7 @@ import StarterKitCard from "./starterkits/StarterKidCard.jsx";
 import akpica from "../assets/images/akpica-ecommerce.png";
 import theprojects from "../assets/images/the-projects.jpeg";
 import firstportfolio from "../assets/images/first-portfolio.png";
+import thornsPage from "../assets/images/thornsPage.webp"
 import akpicaBlog from "../assets/images/Akpica-blog.png";
 import crusaders from "../assets/images/e-commerce_crusaders.webp";
 import GridX from "../assets/images/GridX.webp";
@@ -65,6 +66,17 @@ function Main() {
 
         <section id="projects-section" className="projects-section">
           <div className="grid_card projects_card1">
+        <ProjectCard
+            image={thornsPage}
+            altTitle={"thorns-page"}
+            imageUrl={"https://github.com/Cmbs86/Thorns-and-Spines-page/tree/main/thorns-n-spines-project"}
+            title={"Thorns & Spines tattoo"}
+            description={"A modern tattoo shop website built with React, Tailwind CSS, and Framer Motion, featuring smooth animations and responsive design."}
+            codeUrl={"https://github.com/Cmbs86/Thorns-and-Spines-page/tree/main/thorns-n-spines-project"}
+            />
+          </div>
+          <div className="grid_card projects_card2">
+
             <ProjectCard
               image={akpicaBlog}
               altTitle={"akpica-blog"}
@@ -78,7 +90,7 @@ function Main() {
             />
           </div>
 
-          <div className="grid_card projects_card2">
+          <div className="grid_card projects_card3">
             <ProjectCard
               image={akpica}
               altTitle={"akpica-ecommerce"}
@@ -92,7 +104,7 @@ function Main() {
             />
           </div>
 
-          <div className="grid_card projects_card3">
+          <div className="grid_card projects_card4">
             <ProjectCard
               image={theprojects}
               altTitle={"the-projects"}
@@ -106,7 +118,7 @@ function Main() {
             />
           </div>
 
-          <div className="grid_card projects_card3">
+          <div className="grid_card projects_card5">
             <ProjectCard
               image={crusaders}
               altTitle={"crusaders-ecommerce"}
@@ -120,7 +132,7 @@ function Main() {
             />
           </div>
 
-          <div className="grid_card projects_card3">
+          <div className="grid_card projects_card6">
             <ProjectCard
               image={GridX}
               altTitle={"GridX"}
@@ -134,7 +146,7 @@ function Main() {
             />
           </div>
 
-          <div className="grid_card projects_card4">
+          <div className="grid_card projects_card7">
             <ProjectCard
               image={firstportfolio}
               altTitle={"first-portfolio"}
