@@ -71,7 +71,7 @@ function Main() {
             altTitle={"thorns-page"}
             imageUrl={"https://github.com/Cmbs86/Thorns-and-Spines-page/tree/main/thorns-n-spines-project"}
             title={"Thorns & Spines tattoo"}
-            description={"A modern tattoo shop website built with React, Tailwind CSS, and Framer Motion, featuring smooth animations and responsive design."}
+            description={"A modern tattoo shop website built with React, Tailwind CSS, and Framer Motion, featuring smooth animations and responsive design"}
             codeUrl={"https://github.com/Cmbs86/Thorns-and-Spines-page/tree/main/thorns-n-spines-project"}
             />
           </div>
