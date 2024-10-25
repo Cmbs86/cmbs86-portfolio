@@ -18,10 +18,10 @@ import ProjectCard from "./Projects/ProjectCard.jsx";
 import StarterKitCard from "./starterkits/StarterKidCard.jsx";
 
 //images
+import thornsShop from "../assets/images/thornsShop.webp";
 import akpica from "../assets/images/akpica-ecommerce.png";
 import theprojects from "../assets/images/the-projects.jpeg";
 import firstportfolio from "../assets/images/first-portfolio.png";
-import thornsPage from "../assets/images/thornsPage.webp"
 import akpicaBlog from "../assets/images/Akpica-blog.png";
 import crusaders from "../assets/images/e-commerce_crusaders.webp";
 import GridX from "../assets/images/GridX.webp";
@@ -67,11 +67,11 @@ function Main() {
         <section id="projects-section" className="projects-section">
           <div className="grid_card projects_card1">
         <ProjectCard
-            image={thornsPage}
+            image={thornsShop}
             altTitle={"thorns-page"}
             imageUrl={"https://github.com/Cmbs86/Thorns-and-Spines-page/tree/main/thorns-n-spines-project"}
             title={"Thorns & Spines tattoo"}
-            description={"A modern tattoo shop website built with React, Tailwind CSS, and Framer Motion, featuring smooth animations and responsive design"}
+            description={"A modern tattoo shop website built with React, Tailwind CSS, and Framer Motion, featuring smooth animations and responsive design."}
             codeUrl={"https://github.com/Cmbs86/Thorns-and-Spines-page/tree/main/thorns-n-spines-project"}
             />
           </div>
