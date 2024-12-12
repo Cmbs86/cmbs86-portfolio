@@ -12,8 +12,8 @@ function Intro() {
 
           <div className="intro_header_box">
             <h1 className="introduction_header">
-              Hi, I'm Carlos Sousa.
-              <br />A Full Stack Web Developer, born in Sao Paulo, Brazil.
+              Hi, I'm Carlos.
+              <br />A JavaScript Developer, born in São Paulo, Brazil.
             </h1>
           </div>
         </div>

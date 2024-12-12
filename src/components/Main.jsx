@@ -28,6 +28,7 @@ import GridX from "../assets/images/GridX.webp";
 import server from "../assets/images/server.webp";
 import mern from "../assets/images/mern.png";
 import react from "../assets/images/react.webp";
+import thorns_card_new from "../assets/images/thorns_card_new.webp";
 function Main() {
   return (
     <>
@@ -66,7 +67,7 @@ function Main() {
         <section id="projects-section" className="projects-section">
           <div className="grid_card projects_card1">
             <ProjectCard
-              image={thornsShop}
+              image={thorns_card_new}
               altTitle={"thorns-page"}
               imageUrl={
                 "https://github.com/Cmbs86/Thorns-and-Spines-page/tree/main/thorns-n-spines-project"
@@ -134,20 +135,6 @@ function Main() {
               }
               demoUrl={"https://crusaders-ecommerce.netlify.app/"}
               codeUrl={"https://github.com/Cmbs86/ecommerce-crusaders"}
-            />
-          </div>
-
-          <div className="grid_card projects_card6">
-            <ProjectCard
-              image={GridX}
-              altTitle={"GridX"}
-              imageUrl={"https://gridxportfolio.netlify.app/"}
-              title={"GridX Portfolio"}
-              description={
-                "GridX is a mobile-friendly portfolio template featuring a sleek design and fluid animations, constructed using HTML, CSS, and JavaScript"
-              }
-              demoUrl={"https://gridxportfolio.netlify.app/"}
-              codeUrl={"https://github.com/Cmbs86/gridX?tab=readme-ov-file"}
             />
           </div>
 
