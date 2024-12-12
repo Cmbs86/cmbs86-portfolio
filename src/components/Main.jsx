@@ -78,6 +78,7 @@ function Main() {
               codeUrl={
                 "https://github.com/Cmbs86/Thorns-and-Spines-page/tree/main/thorns-n-spines-project"
               }
+              demoUrl={"https://thornsandspinestattoo.de/"}
             />
           </div>
           <div className="grid_card projects_card2">
