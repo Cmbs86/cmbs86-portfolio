@@ -50,11 +50,10 @@ function Main() {
                 <FaGitAlt className="icon-3" />
                 <FaGithub className="icon-4" />
                 <RiTailwindCssLine className="icon-4" />
-                <FaSass className="icon-1"/>
+                <FaSass className="icon-1" />
                 <SiMongodb className="icon-1" />
                 <SiExpress className="icon-3" />
                 <FaBootstrap className="icon-2" />
-
               </div>
             </div>
           </section>
@@ -66,17 +65,22 @@ function Main() {
 
         <section id="projects-section" className="projects-section">
           <div className="grid_card projects_card1">
-        <ProjectCard
-            image={thornsShop}
-            altTitle={"thorns-page"}
-            imageUrl={"https://github.com/Cmbs86/Thorns-and-Spines-page/tree/main/thorns-n-spines-project"}
-            title={"Thorns & Spines tattoo"}
-            description={"A modern tattoo shop website built with React, Tailwind CSS, and Framer Motion, featuring smooth animations and responsive design."}
-            codeUrl={"https://github.com/Cmbs86/Thorns-and-Spines-page/tree/main/thorns-n-spines-project"}
+            <ProjectCard
+              image={thornsShop}
+              altTitle={"thorns-page"}
+              imageUrl={
+                "https://github.com/Cmbs86/Thorns-and-Spines-page/tree/main/thorns-n-spines-project"
+              }
+              title={"Thorns & Spines tattoo"}
+              description={
+                "A modern tattoo shop website built with React, Tailwind CSS, and Framer Motion, featuring smooth animations and responsive design."
+              }
+              codeUrl={
+                "https://github.com/Cmbs86/Thorns-and-Spines-page/tree/main/thorns-n-spines-project"
+              }
             />
           </div>
           <div className="grid_card projects_card2">
-
             <ProjectCard
               image={akpicaBlog}
               altTitle={"akpica-blog"}
@@ -164,12 +168,14 @@ function Main() {
           Starter Kits:
         </h3>
         <div className="starter_kit_box">
-        <p className="starter_kit">
-          I've put together a range of Starter Kits to help developers avoid the
-          hassles of configuration and setup. With these kits, you can dive
-          straight into coding, focusing on implementing your ideas rather than
-          dealing with the tedious groundwork of starting projects.
-        </p></div>
+          <p className="starter_kit">
+            I've put together a range of Starter Kits to help developers avoid
+            the hassles of configuration and setup. With these kits, you can
+            dive straight into coding, focusing on implementing your ideas
+            rather than dealing with the tedious groundwork of starting
+            projects.
+          </p>
+        </div>
         <section className="projects-section">
           <StarterKitCard
             starterLink={"https://github.com/Cmbs86/Basic-Server"}
@@ -190,34 +196,35 @@ function Main() {
           />
         </section>
 
-        <section className="about_me_container"  id="about">
+        <section className="about_me_container" id="about">
           <div className="about_me">
-          <div className="about_me_text">
-            <h3>About Me:</h3>
-            <p>
-              Full Stack Web Developer with expertise in the MERN stack. I have
-              strong skills in JavaScript, frontend frameworks like React and
-              Tailwind CSS, and server-side programming with Node.js and
-              MongoDB. I graduated from a comprehensive one-year full-time Full
-              Stack Web Development program at DCI - Digital Career Insitute.
-            </p>
-            <p>
-              My background includes a technical course in environmental
-              sciences, where I learned the importance of resourcefulness,
-              creativity, empathy, and sustainability. Coupled with 10 years of
-              hands-on experience as a chef, which taught me to learn by doing,
-              I bring adaptability, critical thinking, time management,
-              attention to detail, teamwork, and problem-solving skills.
-            </p>
-            <p>
-              Outside of development, I have a passion for travel and learning
-              about new cultures, having lived in three different countries.
-              Music also plays a significant role in my life. I play the bass
-              guitar, have performed in two bands, and am currently working on a
-              new project with friends. I frequently attend music events and see
-              music as an essential part of who I am.
-            </p>
-          </div>
+            <div className="about_me_text">
+              <h3>About Me:</h3>
+              <p>
+                JavaScript Developer with expertise in the MERN stack. I have
+                strong skills in JavaScript, TypeScript, and frontend frameworks
+                like React and Tailwind CSS, as well as server-side programming
+                with Node.js and MongoDB. I graduated from a comprehensive
+                one-year full-time Full Stack Web Development program at DCI -
+                Digital Career Insitute.
+              </p>
+              <p>
+                My background includes a technical course in environmental
+                sciences, where I learned the importance of resourcefulness,
+                creativity, empathy, and sustainability. Coupled with 10 years
+                of hands-on experience as a chef, which taught me to learn by
+                doing, I bring adaptability, critical thinking, time management,
+                attention to detail, teamwork, and problem-solving skills.
+              </p>
+              <p>
+                Outside of development, I have a passion for travel and learning
+                about new cultures, having lived in three different countries.
+                Music also plays a significant role in my life. I play the bass
+                guitar, have performed in two bands, and am currently working on
+                a new project with friends. I frequently attend music events and
+                see music as an essential part of who I am.
+              </p>
+            </div>
           </div>
         </section>
 
