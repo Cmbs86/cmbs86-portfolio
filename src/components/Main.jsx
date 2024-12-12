@@ -29,6 +29,7 @@ import server from "../assets/images/server.webp";
 import mern from "../assets/images/mern.png";
 import react from "../assets/images/react.webp";
 import thorns_card_new from "../assets/images/thorns_card_new.webp";
+import guess_the_number from "../assets/images/guess_the_number.webp";
 function Main() {
   return (
     <>
@@ -69,9 +70,7 @@ function Main() {
             <ProjectCard
               image={thorns_card_new}
               altTitle={"thorns-page"}
-              imageUrl={
-                "https://github.com/Cmbs86/Thorns-and-Spines-page/tree/main/thorns-n-spines-project"
-              }
+              imageUrl={"https://thornsandspinestattoo.de/"}
               title={"Thorns & Spines tattoo"}
               description={
                 "A modern tattoo shop website built with React, Tailwind CSS, and Framer Motion, featuring smooth animations and responsive design."
@@ -107,6 +106,20 @@ function Main() {
               }
               demoUrl={"https://akpica.netlify.app/"}
               codeUrl={"https://github.com/Cmbs86/akpica-ecommerce"}
+            />
+          </div>
+
+          <div className="grid_card projects_card4">
+            <ProjectCard
+              image={guess_the_number}
+              altTitle={"the-projects"}
+              imageUrl={"https://cmbs86.github.io/guess-the-number/"}
+              title={"Guess the Number"}
+              description={
+                "A Vanilla JavaScript game upgraded with TypeScript, light/dark mode, and enhanced features for better functionality."
+              }
+              demoUrl={"https://cmbs86.github.io/guess-the-number/"}
+              codeUrl={"https://github.com/Cmbs86/guess-the-number"}
             />
           </div>
 
